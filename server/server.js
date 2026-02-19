@@ -36,7 +36,7 @@ const PORT = process.env.PORT || 5002;
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://proshop.unipixer.com",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
